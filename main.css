@@ -1,0 +1,20 @@
+p.place{
+  text-align:center;
+  word-spacing: 100px;
+}
+a:link {
+  color: black; font-size: 20px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定還沒瀏覽過的連結樣式
+}
+a:visited {
+  color: black; font-size: 20px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定已經瀏覽過的連結樣式
+}
+a:hover {
+  color: black;  font-size: 20px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定滑鼠移到連結上的樣式
+}
+a:active {
+  color: black; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定正在被點選的連結樣式
+}
