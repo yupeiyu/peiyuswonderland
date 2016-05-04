@@ -1,0 +1,33 @@
+p.place{
+  text-align:center;
+  word-spacing: 100px;
+}
+a:link {
+  color: #f06292; font-size: 50px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定還沒瀏覽過的連結樣式
+}
+a:visited {
+  color:#bdbdbd ; font-size: 50px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定已經瀏覽過的連結樣式
+}
+a:hover {
+  color:#f06292 ;  font-size: 50px; font-weight: normal; line-height: 48px; margin: auto; 
+　//設定滑鼠移到連結上的樣式
+}
+a:active {
+  color:#bdbdbd ; font-weight: normal; line-height: 50px; margin: auto; 
+　//設定正在被點選的連結樣式
+}
+body {
+background-color: #FFE4E1;
+}
+p.explan{
+	color: black; 
+	text-align:center;
+  	word-spacing: 5px;
+    font-family: 'Amatic SC', cursive;
+  	 font-size: 30px; 
+  	 font-weight: normal; 
+  	 line-height: 48px; 
+  	 margin: auto;
+}
