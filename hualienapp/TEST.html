@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<title>台灣東部花蓮熱門景點</title>
+<link href="jquery.mobile.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="jquery.mobile.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+<style>
+	#map_div {
+	margin: 0 auto;
+	width: 280px;
+	height: 440px;
+	border: 5px solid #FFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #666;
+}
+</style>
+</head> 
+
+<body> 
+
+<div data-role="page" id="page" data-theme="a">
+	<div data-role="header">
+		<h1>花蓮熱門景點</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">太魯閣國家公園</a></li>
+            <li><a href="#page3">清水斷崖</a></li>
+			<li><a href="#page4">七星潭</a></li>
+			<li><a href="#page5">慕谷慕魚</a></li>
+			<li><a href="#page6">東大門夜市</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page2">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+         <span class="ui-title"></span>
+		<h1>太魯閣國家公園</h1>
+	</div>
+	<div data-role="content">	
+		<p>建議事先查詢當日開放步道喔～</p>	<br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14561.676554533846!2d121.62014385642082!3d24.15702909207065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xddd9fd85e0b0aa31!2z5aSq6a2v6Zaj5ZyL5a625YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1463045452922" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page2">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+	<span class="ui-title"></span>
+		<h1>清水斷崖</h1>
+		
+	</div>
+	<div data-role="content">	
+		<p>建議交通方式：自行開車或是騎機車	</p><br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15209.877777202702!2d121.65850733496895!3d24.201711143233805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x1ae066d17195d165!2z5riF5rC05pa35bSW!5e0!3m2!1szh-TW!2stw!4v1463045298982" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page3">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>七星潭</h1>
+	</div>
+	<div data-role="content">	
+		建議活動：躺在海邊放空，單車步道騎單車，看日出<br>
+		在地人小叮嚀：因為東部海底是很深的海溝，因此不建議下水喔！<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.0073779194877!2d121.6273632151738!3d24.030804984451763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689de8602037a5%3A0x9b5ce482dc0e7554!2z5LiD5pif5r2t6aKo5pmv5Y2A!5e0!3m2!1szh-TW!2stw!4v1463045656390" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page4">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>慕谷慕魚</h1>
+	</div>
+	<div data-role="content">	
+		小叮嚀：要注意入山證的申請方法喔！<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116676.74768150497!2d121.25472351951538!3d23.955193196504755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468a297dd22428b%3A0xaa7684668e2248c8!2z5oWV6LC35oWV6a2a55Sf5oWL5buK6YGT!5e0!3m2!1szh-TW!2stw!4v1463067649003" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page5">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>東大門夜市</h1>
+	</div>
+	<div data-role="content">	
+		夜市特色：原住民一條街裡面有很多特色美食喔！<br>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.624537671304!2d121.60901171517276!3d23.9737135844798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689fe9f14e0c29%3A0xbe7996e0680a20e5!2z5p2x5aSn6ZaA6KeA5YWJ5aSc5biC!5e0!3m2!1szh-TW!2stw!4v1463045594240" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div data-role="footer">
+		<div data-role="navbar">
+	<ul>
+		<li><a href="#page" class="ui-btn-active ui-state-persist">首頁</a></li>
+		<li><a href="#page6">地圖</a></li>
+	</ul>
+	</div>
+	</div>
+</div>
+</body>
+</html>

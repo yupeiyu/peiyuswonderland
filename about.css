@@ -22,3 +22,15 @@ a:active {
   color:#bdbdbd ; font-weight: normal; line-height: 50px; margin: auto; 
 　//設定正在被點選的連結樣式
 }
+.infofont {
+color: #333333;
+font-family: Century Gothic, sans-serif;
+}
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+}

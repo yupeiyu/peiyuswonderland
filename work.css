@@ -21,13 +21,23 @@ a:active {
 body {
 background-color: #FFE4E1;
 }
-p.explan{
-	color: black; 
-	text-align:center;
-  	word-spacing: 5px;
-    font-family: 'Amatic SC', cursive;
-  	 font-size: 30px; 
-  	 font-weight: normal; 
-  	 line-height: 48px; 
-  	 margin: auto;
+#Header{
+
+}
+#Body{
+　float:right;
+}
+#Sidebar{
+　float:left;
+}
+#Footer{
+
+}
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
 }
