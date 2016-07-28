@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=NTR|Roboto+Slab:400,300|Gravitas+One);
+
+
+body {
+  background: radial-gradient(circle, rgba(255,0,0,0.1),rgba(255,0,0,0.2),rgba(255,0,0,0.3));
+  color: rgba(114, 72, 38, 0.7);
+  font-family: sans-serif;
+   
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 42px;
+  
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 4px;
+  font-family: 'NTR', sans-serif;
+}
+
+hr {
+width: 25%;
+height: 2px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(114, 72, 38, 0.7);
+border: 0 none;
+}
+
+.number {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-family: 'Gravitas One', serif;
+}
+
+#container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+  margin: 0 auto;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+    margin: 0 auto;
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+svg {
+  border-radius: 25px;
+}
